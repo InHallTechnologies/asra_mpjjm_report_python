@@ -1,0 +1,11 @@
+prefix=/home/rishabh/Desktop/InHall/Asra/Report/env
+exec_prefix=/home/rishabh/Desktop/InHall/Asra/Report/env
+libdir=/home/rishabh/Desktop/InHall/Asra/Report/env/lib
+includedir=/home/rishabh/Desktop/InHall/Asra/Report/env/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.32.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid

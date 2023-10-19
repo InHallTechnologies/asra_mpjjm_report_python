@@ -1,0 +1,13 @@
+prefix=/home/rishabh/Desktop/InHall/Asra/Report/env
+exec_prefix=/home/rishabh/Desktop/InHall/Asra/Report/env
+libdir=/home/rishabh/Desktop/InHall/Asra/Report/env/lib
+sharedlibdir=/home/rishabh/Desktop/InHall/Asra/Report/env/lib
+includedir=/home/rishabh/Desktop/InHall/Asra/Report/env/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
